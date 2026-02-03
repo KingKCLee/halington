@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>풍무 해링턴플레이스 - 3천만원의 기적</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700;800;900&display=swap');
+        body { font-family: 'Pretendard', sans-serif; letter-spacing:-0.02em; background:#0f172a; scroll-behavior:smooth; color: white; }
+
+        @keyframes pulse-premium {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.4); }
+            70% { transform: scale(1.03); box-shadow: 0 0 0 15px rgba(250, 204, 21, 0); }
+            100% { transform: scale(1); }
+        }
+        .btn-premium { animation: pulse-premium 2.5s infinite ease-in-out; }
+
+        .glass-nav {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .content-width { max-width: 900px; margin: auto; }
+        
+        .img-box { border-radius:28px; overflow:hidden; box-shadow:0 30px 60px rgba(0,0,0,0.4); }
+        .img-box img { width:100%; display:block; }
+        
+        .input-styled {
+            width: 100%;
+            padding: 1.25rem 1.5rem;
+            background-color: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 1.5rem;
+            color: #1e293b;
+            font-size: 1.125rem;
+            transition: all 0.2s;
+        }
+
+        .shine-card {
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(145deg, #1e293b, #0f172a);
+            border: 1px solid rgba(250, 204, 21, 0.2);
+        }
+        .shine-card::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -150%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+            transform: skewX(-25deg);
+            animation: light-sweep 3s infinite;
+        }
+        @keyframes light-sweep {
+            0% { left: -150%; }
+            30% { left: 150%; }
+            100% { left: 150%; }
+        }
+        @keyframes bounce-vertical {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(8px); }
+        }
+        .animate-bounce-slow { animation: bounce-vertical 1.5s infinite; }
+        .privacy-box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 15px; font-size: 12px; color: #475569; line-height: 1.6; height: 140px; overflow-y: auto; text-align: left; }
+    </style>
+</head>
+<body>
+
+    <div class="fixed top-0 left-0 w-full z-50 glass-nav">
+        <div class="max-w-[1200px] mx-auto flex justify-between items-center p-4">
+            <div class="text-[#facc15] font-black text-sm border border-[#facc15]/30 px-3 py-1 rounded-full bg-yellow-400/5">실시간 잔여세대 문의 대기중</div>
+            <a href="#apply" class="bg-[#facc15] text-[#0f172a] px-4 py-2 rounded-full font-black text-sm shadow-lg shadow-yellow-400/20">신청하기</a>
+        </div>
+    </div>
+
+    <section class="relative h-[85vh] flex items-center justify-center overflow-hidden">
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+            <source src="halington.mp4#t=0" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-slate-900/70 to-[#0f172a]"></div>
+        <div class="relative z-10 text-center px-6 max-w-4xl">
+            <p class="text-yellow-400 font-extrabold mb-4 text-xl tracking-widest uppercase">Pungmu Harrington Place</p>
+            <h1 class="text-4xl md:text-6xl font-black leading-tight mb-6">
+                지금 안 움직이면<br>
+                <span class="text-yellow-400">3천만 원 조건은</span> 사라집니다
+            </h1>
+            <p class="text-slate-200 text-lg md:text-xl font-medium leading-relaxed mb-10 opacity-90">
+                김포 풍무의 중심, 1,769세대 대단지 브랜드 타운<br>
+                서울 마곡 30분대 출퇴근 확정 계약 구조를 공개합니다.
+            </p>
+            <div class="flex justify-center">
+                <a href="#apply" class="btn-premium bg-yellow-400 text-slate-900 px-12 py-5 rounded-full font-black text-xl shadow-2xl">
+                    지금 조건 확인하기 ➔
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="space-y-4 py-8 px-4 content-width" style="margin-top:-80px; position:relative; z-index:20;">
+        <div class="img-box"><img src="unnamed (1).png"></div>
+        <div class="img-box"><img src="unnamed (2).png"></div>
+        <div class="img-box"><img src="unnamed (3).png"></div>
+        <div class="img-box"><img src="unnamed (4).png"></div>
+        <div class="img-box"><img src="unnamed (5).png"></div>
+        <div class="img-box"><img src="unnamed (6).png"></div>
+        <div class="img-box"><img src="unnamed (7).png"></div>
+
+        <div class="pt-10 pb-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="flex flex-col items-center">
+                    <div class="shine-card w-full p-6 rounded-3xl border border-white/10 shadow-xl text-center">
+                        <p class="text-yellow-400 font-bold text-sm mb-1">1차 계약금</p>
+                        <h4 class="text-xl font-black">500만원</h4>
+                        <p class="text-slate-400 text-xs mt-1">즉시 정계약 가능</p>
+                    </div>
+                    <svg class="w-8 h-8 text-yellow-400 animate-bounce-slow mt-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="shine-card w-full p-6 rounded-3xl border border-white/10 shadow-xl text-center">
+                        <p class="text-yellow-400 font-bold text-sm mb-1">중도금 혜택</p>
+                        <h4 class="text-xl font-black">이자 후불제</h4>
+                        <p class="text-slate-400 text-xs mt-1">초기 부담 최소화</p>
+                    </div>
+                    <svg class="w-8 h-8 text-yellow-400 animate-bounce-slow mt-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="shine-card w-full p-6 rounded-3xl border border-white/10 shadow-xl text-center">
+                        <p class="text-yellow-400 font-bold text-sm mb-1">입주까지</p>
+                        <h4 class="text-xl font-black">3,000만원</h4>
+                        <p class="text-slate-400 text-xs mt-1">추가 자금 걱정 NO</p>
+                    </div>
+                    <svg class="w-8 h-8 text-yellow-400 animate-bounce-slow mt-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="apply" class="pb-24 bg-slate-900 px-4">
+        <div class="content-width bg-white rounded-[40px] shadow-2xl overflow-hidden text-slate-900">
+            <div class="bg-yellow-400 p-8 text-center">
+                <h3 class="text-xl font-black leading-tight text-slate-800 tracking-tight">아래 신청 정보를 입력하시고<br>“3천만원의 기적”을 직접 확인해 보세요.</h3>
+            </div>
+
+            <script>var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted){alert('신청이 정상적으로 완료되었습니다!\n\n상담 대기 순번 생성이 완료되었으며,\n담당자가 연락드릴 예정입니다.\n\n급하게 확인이 필요하시면 아래 번호로 바로 연락 주세요.\n📞 1533-9077');location.reload();}"></iframe>
+
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLScJRb-2T7SkiIQW8C83ac_PEHEv9kyR-GxuG6QkOJJ4N82slw/formResponse"
+                  method="POST" target="hidden_iframe" onsubmit="return validateForm();" class="p-8 space-y-5">
+
+                <div class="space-y-1 text-left">
+                    <label class="text-sm font-bold text-slate-800 ml-1">이름 *</label>
+                    <input name="entry.1019098426" required placeholder="성함을 입력해주세요" class="input-styled">
+                </div>
+
+                <div class="space-y-1 text-left">
+                    <label class="text-sm font-bold text-slate-800 ml-1">전화번호 *</label>
+                    <input id="display_phone" required placeholder="휴대폰 번호를 입력해주세요" class="input-styled">
+                    <input type="hidden" name="entry.929183790" id="real_phone">
+                </div>
+
+                <div class="space-y-2 pt-2 text-left">
+                    <h4 class="text-sm font-bold text-slate-800 ml-1">개인정보 수집 동의</h4>
+                    <div class="privacy-box">
+                        상담 안내를 위해 이름·연락처만 최소 수집하며, 제3자 제공은 없습니다. 동의 후 언제든지 철회 가능합니다.<br>
+                        1. 개인정보의 수집 이용 목적 : 상담안내 및 견본주택 위치 발송<br>
+                        2. 수집하는 개인정보의 항목 : 이름, 휴대폰 번호<br>
+                        3. 개인정보의 보유 및 이용 기간 : 목적 달성 시 혹은 철회 요청 시까지.<br>
+                        4. 본 정보 수집에 대한 동의를 거부할 권리가 있으며, 비동의 시 상담 서비스 이용이 제한됩니다.
+                    </div>
+                    <label class="flex items-center space-x-3 cursor-pointer mt-3 group">
+                        <input type="checkbox" name="entry.1692797403" value="네 동의합니다." required class="w-5 h-5 rounded border-slate-300 text-yellow-500 focus:ring-yellow-400">
+                        <span class="text-sm font-bold text-slate-700">네 동의합니다.</span>
+                    </label>
+                </div>
+
+                <div class="pt-2">
+                    <button type="submit" class="btn-premium w-full bg-slate-900 text-yellow-400 py-5 rounded-[20px] font-black text-xl shadow-xl hover:bg-black transition-colors">
+                        3천만 원 계약 조건 확인하기 ➔
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-slate-500 text-xs">
+        <p>© 2026 풍무 해링턴플레이스 견본주택 위치안내. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('display_phone').addEventListener('input', function (e) {
+            var x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,4})(\d{0,4})/);
+            e.target.value = !x[2] ? x[1] : x[1] + '-' + x[2] + (x[3] ? '-' + x[3] : '');
+            document.getElementById('real_phone').value = e.target.value.replace(/-/g, '');
+        });
+
+        function validateForm() {
+            var phone = document.getElementById('real_phone').value;
+            if(phone.length < 10) {
+                alert('올바른 전화번호를 입력해주세요.');
+                return false;
+            }
+            submitted = true;
+            return true;
+        }
+    </script>
+
+</body>
+</html>
